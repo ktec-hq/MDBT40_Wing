@@ -29,6 +29,8 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:mdbt40
+LIBS:ktec_logo
+LIBS:MDBT40-Wing-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -43,17 +45,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L MDBT40 U1
-U 1 1 58DA2DAB
-P 4900 3550
-F 0 "U1" H 4900 4500 60  0000 C CNN
-F 1 "MDBT40" H 4900 3550 60  0000 C CNN
-F 2 "mdbt40_carrier:MDBT40-Carrier" H 5250 3800 60  0001 C CNN
-F 3 "" H 5250 3800 60  0001 C CNN
-	1    4900 3550
-	1    0    0    -1  
-$EndComp
 $Comp
 L CONN_01X21 J1
 U 1 1 58DA2ED9
@@ -594,4 +585,28 @@ Wire Bus Line
 	3500 2750 3100 2750
 Wire Bus Line
 	3100 2750 3100 4850
+$Comp
+L MDBT40 U1
+U 1 1 58DAF3A7
+P 4900 3550
+F 0 "U1" H 4900 4500 60  0000 C CNN
+F 1 "MDBT40" H 4900 3550 60  0000 C CNN
+F 2 "mdbt40_carrier:MDBT40-Carrier" H 5250 3800 60  0001 C CNN
+F 3 "" H 5250 3800 60  0001 C CNN
+	1    4900 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LOGO #G1
+U 1 1 58DAF75E
+P 7700 5500
+F 0 "#G1" H 7700 5177 60  0001 C CNN
+F 1 "LOGO" H 7700 5823 60  0001 C CNN
+F 2 "ktec_logo:ktec_logo" H 7700 5500 60  0001 C CNN
+F 3 "" H 7700 5500 60  0001 C CNN
+	1    7700 5500
+	1    0    0    -1  
+$EndComp
+Text Notes 7950 5750 0    60   ~ 0
+Designed by K.T.E.C.
 $EndSCHEMATC

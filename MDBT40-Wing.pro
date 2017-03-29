@@ -1,4 +1,4 @@
-update=Tue 28 Mar 2017 04:32:17 AM CDT
+update=Tue 28 Mar 2017 06:49:40 PM CDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=libs
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,4 +58,15 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=mdbt40
+LibName30=libs/mdbt40
+LibName31=libs/ktec_logo
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
