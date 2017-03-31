@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name ktec_logo)(type KiCad)(uri "$(KIPRJMOD)/mods/ktec_logo.pretty")(options "")(descr ""))
   (lib (name mdbt40_carrier)(type KiCad)(uri "$(KIPRJMOD)/mods/mdbt40_carrier.pretty")(options "")(descr ""))
+  (lib (name sing_pad)(type KiCad)(uri "$(KIPRJMOD)/mods/sing_pad.pretty")(options "")(descr ""))
 )
