@@ -423,7 +423,7 @@ Wire Wire Line
 Wire Bus Line
 	3500 2750 3100 2750
 Wire Bus Line
-	3100 2750 3100 5300
+	3100 2750 3100 5200
 Wire Wire Line
 	2750 2750 3000 2750
 Wire Wire Line
@@ -505,8 +505,6 @@ P0.08
 Entry Wire Line
 	3000 4050 3100 4150
 Entry Wire Line
-	3000 4350 3100 4450
-Entry Wire Line
 	3000 4450 3100 4550
 Entry Wire Line
 	3000 4550 3100 4650
@@ -514,44 +512,22 @@ Entry Wire Line
 	3000 4650 3100 4750
 Entry Wire Line
 	3000 4750 3100 4850
-Entry Wire Line
-	3000 4850 3100 4950
-Entry Wire Line
-	3000 4950 3100 5050
-Entry Wire Line
-	3000 5050 3100 5150
 Wire Wire Line
-	2750 4350 3000 4350
-Wire Wire Line
-	3000 4450 2750 4450
+	2750 4450 3000 4450
 Wire Wire Line
 	3000 4550 2750 4550
 Wire Wire Line
-	2750 4650 3000 4650
+	3000 4650 2750 4650
 Wire Wire Line
-	3000 4750 2750 4750
-Wire Wire Line
-	2750 4850 3000 4850
-Wire Wire Line
-	3000 4950 2750 4950
-Wire Wire Line
-	2750 5050 3000 5050
-Text Label 2750 4350 0    60   ~ 0
-P0.00
+	2750 4750 3000 4750
 Text Label 2750 4450 0    60   ~ 0
-P0.01
+P0.00
 Text Label 2750 4550 0    60   ~ 0
 P0.02
 Text Label 2750 4650 0    60   ~ 0
-P0.03
-Text Label 2750 4750 0    60   ~ 0
 P0.04
-Text Label 2750 4850 0    60   ~ 0
-P0.05
-Text Label 2750 4950 0    60   ~ 0
+Text Label 2750 4750 0    60   ~ 0
 P0.06
-Text Label 2750 5050 0    60   ~ 0
-P0.07
 Text Label 2750 4050 0    60   ~ 0
 SWCLK
 Text Label 6700 4050 0    60   ~ 0
@@ -627,14 +603,42 @@ Entry Wire Line
 Wire Wire Line
 	6700 4050 6950 4050
 $Comp
-L CONN_01X08 J3
+L CONN_02X04 J3
 U 1 1 58DDC5B6
-P 2550 4700
-F 0 "J3" H 2550 5150 50  0000 C CNN
-F 1 "BOTTOM" V 2650 4700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 2550 4700 50  0001 C CNN
-F 3 "" H 2550 4700 50  0001 C CNN
-	1    2550 4700
+P 2500 4600
+F 0 "J3" H 2500 4850 50  0000 C CNN
+F 1 "BOTTOM" V 2600 4600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 2500 4600 50  0001 C CNN
+F 3 "" H 2500 4600 50  0001 C CNN
+	1    2500 4600
 	-1   0    0    -1  
 $EndComp
+Wire Bus Line
+	3100 5200 1900 5200
+Wire Bus Line
+	1900 5200 1900 4200
+Entry Wire Line
+	1900 4550 2000 4450
+Entry Wire Line
+	1900 4650 2000 4550
+Entry Wire Line
+	1900 4750 2000 4650
+Entry Wire Line
+	1900 4850 2000 4750
+Wire Wire Line
+	2250 4450 2000 4450
+Wire Wire Line
+	2250 4550 2000 4550
+Wire Wire Line
+	2250 4650 2000 4650
+Wire Wire Line
+	2250 4750 2000 4750
+Text Label 2000 4450 0    60   ~ 0
+P0.01
+Text Label 2000 4550 0    60   ~ 0
+P0.03
+Text Label 2000 4650 0    60   ~ 0
+P0.05
+Text Label 2000 4750 0    60   ~ 0
+P0.07
 $EndSCHEMATC
